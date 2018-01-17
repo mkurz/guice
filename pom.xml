@@ -87,11 +87,11 @@ See the Apache License Version 2.0 for the specific language governing permissio
 	<distributionManagement>
 		<repository>
 			<id>repo-deploy</id>
-			<url>http://ems:emsems@10.50.3.5:8081/artifactory/ext-release-local</url>
+			<url>file:///tmp/guice-releases-local</url>
 		</repository>
 		<snapshotRepository>
 			<id>repo-deploy-snapshot</id>
-			<url>http://ems:emsems@10.50.3.5:8081/artifactory/ext-snapshot-local</url>
+			<url>file:///tmp/guice-snapshots-local</url>
 		</snapshotRepository>
 	</distributionManagement>
 
